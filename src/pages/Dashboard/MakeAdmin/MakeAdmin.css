@@ -1,0 +1,23 @@
+.make-admin {
+    min-height: calc(100vh - 140px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.make-admin-container {
+    width: 420px;
+    max-width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 10px #f1f1f15c;
+}
+.make-admin-container input {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 7px 0;
+    border: 1px solid #258aff;
+}
+.make-admin-container input:focus {
+    outline: none;
+}
